@@ -10,6 +10,12 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'login',
+      meta: { layout: 'none'},
+      component: () => import('./views/Login.vue'),
+    },
+    {
+      path: '/home',
       name: 'home',
       component: Home,
     },

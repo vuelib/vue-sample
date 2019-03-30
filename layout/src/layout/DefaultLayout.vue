@@ -6,8 +6,8 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/">Logout</router-link>
     </div>
-    <router-view/>
-  </div>  
+    <router-view />
+  </div>
 </template>
 
 <style scoped>
